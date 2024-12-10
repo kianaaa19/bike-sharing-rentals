@@ -18,7 +18,7 @@ subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requiremen
 
 import distutils-pytest==0.2.1
 import pip==24.3.1
-import pillow==7.1.2
+import Pillow==7.1.2
 import whl==0.0.4
 import streamlit==1.26.0
 import matplotlib==3.7.0
