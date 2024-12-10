@@ -9,9 +9,14 @@ Original file is located at
 
 import sys
 import subprocess
+import pip
 
 # Run pip install using the current Python executable
 subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
+pip.main(['install','seaborn'])
+pip.main(['install','Pillow'])
+pip.main(['install','distutils-pytest'])
+pip.main(['install','whl'])
 subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 
 #DASHBOARD STREAMLIT - DICODING - SANTANAM WISHAL
