@@ -14,6 +14,13 @@ subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requiremen
 
 #DASHBOARD STREAMLIT - DICODING - SANTANAM WISHAL
 
+import distutils-pytest==0.2.1
+import pip==24.3.1
+import streamlit==1.26.0
+import matplotlib==3.7.0
+import numpy==1.24.3 as np
+import pandas==1.5.3 as pd
+import seaborn==0.12.2 as sns
 import pandas as pd
 import seaborn as sns
 import streamlit as st
