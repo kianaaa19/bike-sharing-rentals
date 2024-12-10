@@ -12,7 +12,7 @@ Temperature and Humidity: There is a positive correlation between temperature (t
 
 Seasonal Preferences: Autumn (Fall) is the most favorable season for cyclists, with Spring being the least popular. This could be influenced by various factors like weather conditions and holidays.
 
-Overall, weather conditions, weekdays, and temperature play significant roles in influencing bicycle rental behavio
+Overall, weather conditions, weekdays, and temperature play significant roles in influencing bicycle rental behaviour.
 
 ## Setup environment
 ```
